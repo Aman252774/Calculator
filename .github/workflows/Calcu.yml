@@ -24,9 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
     
-      - name: Create tests folder (if needed)
+    
+      - name: Run tests
         run: |
-         mkdir -p tests
-         touch tests/__init__.py
-
-      
+          pytest  # Or your preferred test runner
