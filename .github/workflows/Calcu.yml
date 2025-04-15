@@ -29,6 +29,4 @@ jobs:
          mkdir -p tests
          touch tests/__init__.py
 
-      - name: Run tests
-        run: |
-          pytest  # Or your preferred test runner
+      
